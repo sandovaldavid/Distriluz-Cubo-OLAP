@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProyectoMultiPFConsumoElectricoDistriluz", "ProyectoMultiPFConsumoElectricoDistriluz\ProyectoMultiPFConsumoElectricoDistriluz.dwproj", "{72B2A562-3F78-4A51-B97F-EA811C508D38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B2A562-3F78-4A51-B97F-EA811C508D38}.Development|Default.ActiveCfg = Development
+		{72B2A562-3F78-4A51-B97F-EA811C508D38}.Development|Default.Build.0 = Development
+		{72B2A562-3F78-4A51-B97F-EA811C508D38}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5886647A-FBA6-4E72-9FDE-1D211B563950}
+	EndGlobalSection
+EndGlobal
