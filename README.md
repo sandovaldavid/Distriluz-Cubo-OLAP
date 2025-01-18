@@ -95,7 +95,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contributors
 
-- [David Sandoval](@sandovaldavid)
+- [David Sandoval](https://github.com/sandovaldavid)
 - Team Leads:
   - Sair Bautista
   - Moises Americo
