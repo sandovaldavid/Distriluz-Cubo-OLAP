@@ -13,38 +13,38 @@ The cube consists of the following components:
 ### Fact Table
 
 - `Consumo_Fact`: Contains the main metrics about energy consumption
-  - ConsumoKWh (Energy consumption in KWh)
-  - ImporteSoles (Amount in Peruvian Soles)
-  - HuellaCarbono (Carbon footprint)
+  - `ConsumoKWh` (Energy consumption in KWh)
+  - `ImporteSoles` (Amount in Peruvian Soles)
+  - `HuellaCarbono` (Carbon footprint)
 
 ### Dimension Tables
 
 - `Empresa_Dim`: Company information
-  - Company ID
-  - Company Name
+  - `CompanyID`
+  - `CompanyName`
 
 - `Ubicacion_Dim`: Geographic location hierarchy
-  - Department
-  - Province
-  - District
-  - Ubigeo Code
+  - `Department`
+  - `Province`
+  - `District`
+  - `UbigeoCode`
 
 - `Tiempo_Dim`: Time dimension
-  - Year
-  - Month
-  - Season
+  - `Year`
+  - `Month`
+  - `Season`
 
 - `Cartera_Dim`: Portfolio information
-  - Portfolio Description
-  - Tariff Code
-  - Tariff Description
+  - `PortfolioDescription`
+  - `TariffCode`
+  - `TariffDescription`
 
 ## Features
 
 - Multi-dimensional analysis of energy consumption
 - Hierarchical navigation through dimensions
-- Time-based analysis by year, month and season
-- Geographic analysis by department, province and district
+- Time-based analysis by year, month, and season
+- Geographic analysis by department, province, and district
 - Analysis by company and tariff types
 
 ## Technologies Used
@@ -57,14 +57,14 @@ The cube consists of the following components:
 
 - SQL Server 2019 or later
 - Visual Studio 2019 or later with SQL Server Data Tools
-- Access to DM_ConsumoEnergetico database
+- Access to the `DM_ConsumoEnergetico` database
 
 ## Installation
 
-1. Clone this repository
-2. Open the solution file `ProyectoMultiPFConsumoElectricoDistriluz.sln` in Visual Studio
-3. Configure the connection to your DM_ConsumoEnergetico database
-4. Deploy the Analysis Services project to your SSAS instance
+1. Clone this repository.
+2. Open the solution file `ProyectoMultiPFConsumoElectricoDistriluz.sln` in Visual Studio.
+3. Configure the connection to your `DM_ConsumoEnergetico` database.
+4. Deploy the Analysis Services project to your SSAS instance.
 
 ## Usage
 
@@ -108,7 +108,7 @@ For any inquiries about this project, please contact:
 
 ### Integrante: David Sandoval
 
-- [email](sandovaldavid2201@gmail.com)
+- [Email](mailto:sandovaldavid2201@gmail.com)
 - [Perfil Web](https://devsandoval.me/)
 
 ---
