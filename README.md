@@ -15,6 +15,7 @@ The cube consists of the following components:
 - `Consumo_Fact`: Contains the main metrics about energy consumption
   - ConsumoKWh (Energy consumption in KWh)
   - ImporteSoles (Amount in Peruvian Soles)
+  - HuellaCarbono (Carbon footprint)
 
 ### Dimension Tables
 
