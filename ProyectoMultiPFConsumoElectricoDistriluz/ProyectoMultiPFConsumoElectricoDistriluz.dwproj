@@ -20,8 +20,8 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Ubicacion Dim.dim</Name>
-      <FullPath>Ubicacion Dim.dim</FullPath>
+      <Name>Cartera Dim.dim</Name>
+      <FullPath>Cartera Dim.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Empresa Dim.dim</Name>
@@ -32,8 +32,8 @@
       <FullPath>Tiempo Dim.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Cartera Dim.dim</Name>
-      <FullPath>Cartera Dim.dim</FullPath>
+      <Name>Ubicacion Dim.dim</Name>
+      <FullPath>Ubicacion Dim.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -56,7 +56,7 @@
           <ConfigurationSetting>
             <Id>DM Consumo Energetico</Id>
             <Name>DM Consumo Energetico</Name>
-            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=AN5-DS;Password=;User ID=;Initial Catalog=DM_ConsumoEnergetico</Value>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=AN5-DS;Persist Security Info=True;Password=;User ID=;Initial Catalog=DM_ConsumoEnergetico_CO2</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
